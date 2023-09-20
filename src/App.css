@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-block {
+  width: 50px;
+  height: 50px;
+  background-color: #b5dc36;
+  position: absolute;
+}
+
+.side-label {
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  background-color: #b8eded;
+  padding: 5px;
+  text-align: center;
+}
+
+.side-label.up {
+  top: -50px;
+  left: 0px;
+  width: 490px;
+  height: 60px;
+}
+
+.side-label.left {
+  top: 235px;
+  left: -290px;
+  width: 500px;
+  height: 60px;
+  transform: rotate(-90deg);
+}
+
+.side-label.right {
+  top: 233px;
+  right: -290px;
+  width: 500px;
+  height: 60px;
+  transform: rotate(90deg);
+}
+
+.side-label.bottom {
+  bottom: -73px;
+  left: 0px;
+  width: 500px;
+  height: 60px;
+}
